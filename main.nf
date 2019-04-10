@@ -155,6 +155,7 @@ summary["Trim 5' R1"]          = params.clip_R1
 summary["Trim 3' R1"]          = params.three_prime_clip_R1
 summary['miRBase mature']      = params.mature
 summary['miRBase hairpin']     = params.hairpin
+summary['Container']           = params.container
 if(params.bt2index)            summary['Bowtie2 Index'] = params.bt2index
 if(params.gtf)                 summary['GTF Annotation'] = params.gtf
 summary['Save Reference']      = params.saveReference ? 'Yes' : 'No'
